@@ -15,7 +15,7 @@ pipeline{
         }
         stage ('deploy') {
             steps {
-                sh 'top'
+                sh 'uptime'
 
             }
         }
