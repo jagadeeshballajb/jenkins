@@ -9,13 +9,13 @@ pipeline{
         }
         stage ('test') {
             steps {
-                echo 'Testing first pipeline'
+                sf 'whoami'
 
             }
         }
         stage ('deploy') {
             steps {
-                echo 'Deploying first pipeline'
+                sh 'top'
 
             }
         }
