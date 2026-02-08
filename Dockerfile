@@ -1,3 +1,3 @@
-FRON nginx
+FROM nginx
 COPY . .
 EXPOSE 80
