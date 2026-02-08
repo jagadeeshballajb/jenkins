@@ -1,0 +1,3 @@
+FRON nginx
+COPY . .
+EXPOSE 80
